@@ -7,7 +7,7 @@
         </div>
         <br/>
     </div>
-    <p>{{filterList}}</p>
+    <p>현재 적용된 필터들 : {{filterList}}</p>
     <button class="query-button" @click="queryProductList()">리스트 새로 쿼리하기</button>
 </template>
 
